@@ -1,21 +1,19 @@
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 
     Arial, sans-serif;
-    background-image: url(images/greennn.jpg);
+    background-image: url(greennn.jpg);
     background-size: cover;
     text-align: center;
     color: white;
 }
 
 h1{
-    color: goldenrod;
+    color: rgb(245, 177, 7);
 }
 
 #message-el{
     font-style: italic;
 }
-
-
 
 
 
