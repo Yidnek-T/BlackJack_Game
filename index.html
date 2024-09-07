@@ -6,7 +6,7 @@
     <title>Game</title>
     <link rel="stylesheet" href="index.css">
 </head>
-<body>
+<body oncontextmenu="return false">
     <h1>BlackJack</h1>
     <p id="message-el">Want to play a round?</p>
     
@@ -15,6 +15,32 @@
     <button onclick="startGame()">START GAME</button>
     <button onclick="newCard()">NEW CARD</button>
     <p id="player-el"></p>
-    <script src="index.js"></script>    
+    <script src="index.js">
+
+     document.onkeydown=function(e){
+    if(event.keyCode ==123)
+    {
+            return false;
+    }
+        if(e.ctrlKey && e.keyCode =='I'. charCodeAt(0))
+        {
+            return false;
+        }
+
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'. charCodeAt(0))
+        {
+            return false;
+        }
+        if(e.ctrlKey && e.keyCode == 'U'. charCodeAt(0))
+        {
+            return false;
+        }
+        if(e.ctrlKey && e){
+            return false;
+        }
+
+  }
+
+    </script>    
 </body>
 </html>
